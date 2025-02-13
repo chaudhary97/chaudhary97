@@ -1,0 +1,22 @@
+div{
+    height:100px;
+    width: 100px;
+    border: 2px black solid;
+    display: inline-block;
+}
+#box1{
+    background-image: url("fox photo.jpg");
+    background-size: cover;
+}
+body{
+    background-image:url("fox photo.jpg") ;
+    background-size: contain;
+}
+#box2{
+    background-image:url("fox photo.jpg") ;
+    background-size: cover;
+}
+#box2{
+    background-image:url("fox photo.jpg") ;
+    background-size: auto;
+}

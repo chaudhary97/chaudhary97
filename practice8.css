@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid  slategray;
+    border-top: 20px solid #1990be;
+    animation: spinanimation 3s ease-in-out 0s infinite normal ;
+}
+@keyframes spinanimation{
+    from{ 
+        transform: rotate(0deg);
+    }
+    to{transform:rotate(360deg) ;}
+}

@@ -1,0 +1,28 @@
+p{
+    text-align:right;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 100;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+}
+#one{
+    font-family: Arial;
+}
+#two{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+*{
+    color:green;
+}
+h1 { color:red;
+
+}
+button{
+    color:blue;
+    background-color: rgb(28, 164, 222);
+}
+#heading1{
+    color:rgb(203, 37, 37)
+}
+#heading2{
+    color:rgb(128, 128, 128)
+}
+.myclass{
+    color:rgb(101, 17, 17)
+}
+#heading4{
+    color:rgb(18, 1, 1)
+}
+#heading5{
+    color:rgb(249, 8, 8)
+}
+

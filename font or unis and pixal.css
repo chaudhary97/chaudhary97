@@ -1,0 +1,14 @@
+#one{
+    font-size: 100px;
+}
+#two{
+    font-size: 50px;
+}
+#three{
+    font-size:12;
+}
+#four{
+    font-size:12;
+    line-height: 20px;
+    text-transform: uppercase;
+}
