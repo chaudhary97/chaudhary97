@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineBookStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index1.css">
+    <style>
+        /* Additional CSS for responsive search bar */
+        .search-input {
+            width: 150px; /* Initial width of the search input */
+            padding: 10px;
+            font-size: 16px;
+            transition: width 0.3s; /* Smooth transition for width change */
+        }
+
+        @media screen and (max-width: 600px) {
+            /* Adjust search input width for smaller screens */
+            .search-input {
+                width: 100%; /* Take up 100% of the available width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Your existing HTML code -->
+    <div class="navbar">
+        <!-- Other navbar items -->
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Books..." class="search-input" oninput="resizeSearchInput(this)">
+            <div class="search-icon" onclick="performSearch(BOOKS)">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <!-- Other navbar items -->
+    </div>
+    <!-- Other sections of your webpage -->
+
+    <script>
+        // JavaScript function to resize the search input dynamically
+        function resizeSearchInput(input) {
+            input.style.width = ((input.value.length + 1) * 8) + 'px'; // Adjust the width based on the length of the input value
+        }
+    </script>
+</body>
+</html>

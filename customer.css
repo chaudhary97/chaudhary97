@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("BOOKIMAGE.avif");
+    background-size: cover;
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+#book-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #10c9b6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#book-details h2 {
+    margin-bottom: 10px;
+
+}
+
+#book-details p {
+    margin-bottom: 5px;
+}
+
+#book-details img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+#book-details .label {
+    font-weight: bold;
+}
+
+#book-details .btn-container {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+

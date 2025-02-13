@@ -1,0 +1,31 @@
+.search-container {
+  position: relative;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#searchHistory {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+#searchHistory li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#searchHistory li:hover {
+  background-color: #f0f0f0;
+}

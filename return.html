@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Order</title>
+    <link rel="stylesheet" href="return.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Return Order</h1>
+        <div id="return-form">
+            <h2>Return Order Form</h2>
+            <form id="order-return-form">
+                <div class="form-group">
+                    <label for="order-id">Order ID:</label>
+                    <input type="text" id="order-id" placeholder="Enter your order ID">
+                </div>
+                <div class="form-group">
+                    <label for="reason">Reason for return:</label>
+                    <textarea id="reason" placeholder="Enter reason for return"></textarea>
+                </div>
+                <button type="button" onclick="submitReturn()">Submit Return</button>
+            </form>
+        </div>
+        <div id="return-policy">
+            <h2>Return Policy</h2>
+            <p>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.</p>
+            <p>To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.</p>
+            <p>To start a return, you can contact us at <a href="mailto:returns@example.com">returns@example.com</a>. If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package.</p>
+        </div>
+    </div>
+    <script src="return.js"></script>
+</body>
+</html>
